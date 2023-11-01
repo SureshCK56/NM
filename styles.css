@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("images/default-bg.jpg"); /* Default background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #333;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-box {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+}
+
+.data-box p, .data-box span {
+  margin: 0;
+}
+
+#temperature-image {
+  max-width: 100px;
+  display: none;
+}
+
+#suggestion {
+  margin: 20px;
+}
+
+#refresh-button {
+  margin: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#refresh-button:hover {
+  background-color: #555;
+}
